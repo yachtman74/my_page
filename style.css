@@ -1,7 +1,71 @@
-html {
-  background-color: rgb(200, 200, 200);
+body {
+    background-color: rgb(223, 248, 250);
 }
 
-H1{
-  text-aling: center;
+#header {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(142, 142, 177); */
+    font-family: sans-serif;
+ 
+}
+
+#div_header_1 {
+    /* border: 1px solid black; */
+    float: left;
+    height: 90%;
+    width: 39%;
+    /* background-color: rgb(87, 131, 107); */
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-top: 0.6rem;
+    letter-spacing: 0.15rem;
+}
+
+#div_srodek {
+    /* border: 1px solid black; */
+    float: left;
+    height: 90%;
+    width: 20%;
+    /* background-color: rgb(209, 126, 177); */
+    text-align: center;
+}
+
+#div_header_2 {
+    /* border: 1px solid black; */
+    float: left;
+    height: 90%;
+    width: 39%;
+    /* background-color: rgb(128, 99, 99); */
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+}
+
+#topbar {
+    font-size: 2.2rem;
+    text-align: center;
+    height: fit-content;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topbar-p-2 {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+#image {
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jacht {
+    border-radius: 20px;
 }
